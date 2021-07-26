@@ -41,6 +41,8 @@ cc_defaults {
         "-DSQLITE_PRINTF_PRECISION_LIMIT=100000000",
         "-Wno-unused-parameter",
         "-Werror",
+        "-O3",
+
     ],
 
     target: {
